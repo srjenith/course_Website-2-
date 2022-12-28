@@ -1,0 +1,35 @@
+
+
+
+.home{
+    display: flex;
+    align-items:center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background: url(../images/home-bg.jpg);
+    /* border-bottom:4px solid black ; */
+}
+
+.home .content{
+   display: inline-block;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    color:black;
+}
+
+.home .content span{
+    font-size: 3.5rem;
+    color:var(--blue);
+    padding:1rem 0;
+    /* line-height: 1.5; */
+}
+
+.home .content p{
+    font-size: 1.5rem;
+    color:black;
+    padding:1rem 0;
+    /* line-height: 1.5; */
+}
